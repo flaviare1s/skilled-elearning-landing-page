@@ -651,6 +651,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.hover\:bg-azul_cinzento:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(102 108 163 / var(--tw-bg-opacity));
+}
+
 @media (min-width: 768px) {
   .md\:p-10 {
     padding: 2.5rem;
