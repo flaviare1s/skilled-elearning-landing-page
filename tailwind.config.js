@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'Jakarta': ['Plus Jakarta Sans', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }

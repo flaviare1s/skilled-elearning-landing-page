@@ -543,3 +543,7 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.font-Jakarta {
+  font-family: Plus Jakarta Sans, sans-serif;
+}
