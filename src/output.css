@@ -568,6 +568,34 @@ video {
   margin-top: 1rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mt-\[\] {
+  margin-top: ;
+}
+
+.mt-\[90px\] {
+  margin-top: 90px;
+}
+
+.mb-\[90px\] {
+  margin-bottom: 90px;
+}
+
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
@@ -729,6 +757,10 @@ video {
   padding-bottom: 2rem;
 }
 
+.pb-\[90px\] {
+  padding-bottom: 90px;
+}
+
 .font-Jakarta {
   font-family: Plus Jakarta Sans, sans-serif;
 }
@@ -745,6 +777,20 @@ video {
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-\[20px\] {
+  font-size: 20px;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -771,6 +817,14 @@ video {
   line-height: 32px;
 }
 
+.leading-\[\] {
+  line-height: ;
+}
+
+.leading-\[28px\] {
+  line-height: 28px;
+}
+
 .text-cinza {
   --tw-text-opacity: 1;
   color: rgb(131 134 154 / var(--tw-text-opacity));
@@ -786,6 +840,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-pink {
+  --tw-text-opacity: 1;
+  color: rgb(247 71 128 / var(--tw-text-opacity));
+}
+
 .hover\:bg-azul_cinzento:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(102 108 163 / var(--tw-bg-opacity));
@@ -796,6 +855,18 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:mt-\[\] {
+    margin-top: ;
+  }
+
+  .md\:mt-\[86px\] {
+    margin-top: 86px;
+  }
+
+  .md\:mb-\[86px\] {
+    margin-bottom: 86px;
+  }
+
   .md\:block {
     display: block;
   }
@@ -835,6 +906,10 @@ video {
     padding-top: 0.875rem;
     padding-bottom: 0.875rem;
   }
+
+  .md\:pb-\[86px\] {
+    padding-bottom: 86px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -855,6 +930,30 @@ video {
 
   .xl\:mt-6 {
     margin-top: 1.5rem;
+  }
+
+  .xl\:mt-8 {
+    margin-top: 2rem;
+  }
+
+  .xl\:mb-6 {
+    margin-bottom: 1.5rem;
+  }
+
+  .xl\:mt-\[\] {
+    margin-top: ;
+  }
+
+  .xl\:mt-\[1\] {
+    margin-top: 1;
+  }
+
+  .xl\:mt-\[140px\] {
+    margin-top: 140px;
+  }
+
+  .xl\:mb-\[140px\] {
+    margin-bottom: 140px;
   }
 
   .xl\:block {
@@ -887,6 +986,22 @@ video {
     padding-right: 165px;
   }
 
+  .xl\:pt-\[\] {
+    padding-top: ;
+  }
+
+  .xl\:pt-\[52px\] {
+    padding-top: 52px;
+  }
+
+  .xl\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  .xl\:pb-\[140px\] {
+    padding-bottom: 140px;
+  }
+
   .xl\:text-\[56px\] {
     font-size: 56px;
   }
@@ -898,6 +1013,11 @@ video {
 
   .xl\:text-\[32px\] {
     font-size: 32px;
+  }
+
+  .xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .xl\:leading-\[28px\] {
