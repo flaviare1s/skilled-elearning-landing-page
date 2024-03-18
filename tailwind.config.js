@@ -9,6 +9,7 @@ module.exports = {
       colors: {
         azul_cinzento: '#666CA3',
         dark: '#13183F',
+        grey:'#979797',
         cinza: '#83869A',
         pink: '#F74780',
         rosa: '#FFA7C3',
