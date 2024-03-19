@@ -680,6 +680,10 @@ video {
   right: -28%;
 }
 
+.right-\[-38\%\] {
+  right: -38%;
+}
+
 .z-30 {
   z-index: 30;
 }
@@ -1228,6 +1232,10 @@ video {
     margin-top: 234px;
   }
 
+  .xl\:mt-\[334px\] {
+    margin-top: 334px;
+  }
+
   .xl\:block {
     display: block;
   }
@@ -1268,6 +1276,10 @@ video {
 
   .xl\:pt-\[52px\] {
     padding-top: 52px;
+  }
+
+  .xl\:pt-8 {
+    padding-top: 2rem;
   }
 
   .xl\:text-2xl {
