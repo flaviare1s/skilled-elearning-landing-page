@@ -544,6 +544,30 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.top-3 {
+  top: 0.75rem;
+}
+
+.top-\[\] {
+  top: ;
+}
+
+.top-\[-10\] {
+  top: -10;
+}
+
+.top-\[-10\%\] {
+  top: -10%;
+}
+
 .m-auto {
   margin: auto;
 }
@@ -590,6 +614,10 @@ video {
 
 .mb-\[90px\] {
   margin-bottom: 90px;
+}
+
+.mt-12 {
+  margin-top: 3rem;
 }
 
 .block {
@@ -642,6 +670,10 @@ video {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
 }
 
 .rounded-\[28px\] {
@@ -709,6 +741,10 @@ video {
   --tw-gradient-to: #f3e8ff var(--tw-gradient-to-position);
 }
 
+.to-blue-100 {
+  --tw-gradient-to: #dbeafe var(--tw-gradient-to-position);
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -759,6 +795,18 @@ video {
 
 .pb-\[90px\] {
   padding-bottom: 90px;
+}
+
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
+.pt-12 {
+  padding-top: 3rem;
+}
+
+.pb-10 {
+  padding-bottom: 2.5rem;
 }
 
 .font-Jakarta {
@@ -924,6 +972,30 @@ video {
 }
 
 @media (min-width: 1280px) {
+  .xl\:top-\[\] {
+    top: ;
+  }
+
+  .xl\:top-\[-\] {
+    top: -;
+  }
+
+  .xl\:top-\[-15\%\] {
+    top: -15%;
+  }
+
+  .xl\:top-\[-5\%\] {
+    top: -5%;
+  }
+
+  .xl\:top-\[-7\%\] {
+    top: -7%;
+  }
+
+  .xl\:top-\[-6\%\] {
+    top: -6%;
+  }
+
   .xl\:mb-10 {
     margin-bottom: 2.5rem;
   }
@@ -954,6 +1026,10 @@ video {
 
   .xl\:mb-\[140px\] {
     margin-bottom: 140px;
+  }
+
+  .xl\:mt-16 {
+    margin-top: 4rem;
   }
 
   .xl\:block {
