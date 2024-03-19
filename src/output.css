@@ -716,6 +716,10 @@ video {
   margin-top: 1rem;
 }
 
+.mt-\[134px\] {
+  margin-top: 134px;
+}
+
 .block {
   display: block;
 }
@@ -1216,6 +1220,14 @@ video {
     margin-top: 1.5rem;
   }
 
+  .xl\:mt-\[134px\] {
+    margin-top: 134px;
+  }
+
+  .xl\:mt-\[234px\] {
+    margin-top: 234px;
+  }
+
   .xl\:block {
     display: block;
   }
@@ -1282,5 +1294,17 @@ video {
 
   .xl\:leading-\[40px\] {
     line-height: 40px;
+  }
+}
+
+@media (min-width: 1536px) {
+  @media (min-width: 1280px) {
+    .\32xl\:xl\:mt-\[234px\] {
+      margin-top: 234px;
+    }
+  }
+
+  .\32xl\:mt-\[234px\] {
+    margin-top: 234px;
   }
 }
