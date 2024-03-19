@@ -684,6 +684,10 @@ video {
   right: -38%;
 }
 
+.right-\[-23\%\] {
+  right: -23%;
+}
+
 .z-30 {
   z-index: 30;
 }
